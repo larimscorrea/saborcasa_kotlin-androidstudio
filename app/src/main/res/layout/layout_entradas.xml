@@ -5,6 +5,7 @@
     android:orientation="vertical"
     tools:context="MainActivity6" >
 
+    <!-- Seção "Entradas" -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +17,7 @@
         android:background="@color/fundo"
         android:textColor="@color/white" />
 
+    <!-- Lista de pratos de entrada -->
     <LinearLayout
         android:id="@+id/linearlayoutPratos"
         android:layout_width="match_parent"
@@ -49,7 +51,7 @@
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Sopa" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +65,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sopa"
+                android:text="Feijão verde com camarão"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -71,12 +73,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 20 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Bruschetta" -->
+
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bruschetta"
+                android:text="Mandioca frita"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -98,12 +101,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 25 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Carpaccio" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -117,7 +120,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carpaccio"
+                android:text="Casquinha de siri"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -125,13 +128,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 30 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
+        <!-- Adicione aqui as seções para os pratos de entrada -->
     </LinearLayout>
 
+    <!-- Seção "Pratos principais" -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -143,8 +148,9 @@
         android:background="@color/fundo"
         android:textColor="@color/white" />
 
+    <!-- Lista de pratos principais -->
     <LinearLayout
-        android:id="@+id/linearlayoutPratos"
+        android:id="@+id/linearlayoutPratos2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -163,7 +169,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salada"
+                android:text="Pratinho"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -176,7 +182,7 @@
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Sopa" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -190,7 +196,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sopa"
+                android:text="Frango assado com baião de dois"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -198,12 +204,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 20 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Bruschetta" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -217,7 +223,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bruschetta"
+                android:text="Strogonoffe"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -225,12 +231,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 25 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Carpaccio" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -244,7 +250,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carpaccio"
+                android:text="Lasanha"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -252,14 +258,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 30 minutos"
+                android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
+        <!-- Adicione aqui as seções para os pratos principais -->
     </LinearLayout>
 
-
+    <!-- Seção "Bebidas" -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -271,11 +278,13 @@
         android:background="@color/fundo"
         android:textColor="@color/white" />
 
+    <!-- Lista de bebidas -->
     <LinearLayout
-        android:id="@+id/linearlayoutPratos"
+        android:id="@+id/linearlayoutPratos3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
 
         <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
@@ -291,7 +300,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salada"
+                android:text="Água"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -299,12 +308,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 15 minutos"
+                android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Sopa" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -318,7 +327,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sopa"
+                android:text="Guaraná"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -326,12 +335,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 20 minutos"
+                android:text="Tempo de preparo: 1 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Bruschetta" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -345,7 +354,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bruschetta"
+                android:text="Cajuína"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -353,12 +362,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 25 minutos"
+                android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
-        <!-- Adicionando a seção para o prato "Carpaccio" -->
+        <!-- Adicionando a seção para o prato "Salada" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -372,7 +381,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carpaccio"
+                android:text="Suco de laranja"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -380,13 +389,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 30 minutos"
+                android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
         </LinearLayout>
 
+        <!-- Adicione aqui as seções para as bebidas -->
     </LinearLayout>
 
+    <!-- Seção "Sobremesas" -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -398,130 +409,46 @@
         android:background="@color/fundo"
         android:textColor="@color/white" />
 
+    <!-- Lista de sobremesas -->
     <LinearLayout
-        android:id="@+id/linearlayoutPratos"
+        android:id="@+id/linearlayoutPratos4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Adicionando a seção para o prato "Salada" -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Salada"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 15 minutos"
-                android:textSize="14sp"
-                android:padding="8dp" />
-        </LinearLayout>
-
-        <!-- Adicionando a seção para o prato "Sopa" -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sopa"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 20 minutos"
-                android:textSize="14sp"
-                android:padding="8dp" />
-        </LinearLayout>
-
-        <!-- Adicionando a seção para o prato "Bruschetta" -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bruschetta"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 25 minutos"
-                android:textSize="14sp"
-                android:padding="8dp" />
-        </LinearLayout>
-
-        <!-- Adicionando a seção para o prato "Carpaccio" -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Carpaccio"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tempo de preparo: 30 minutos"
-                android:textSize="14sp"
-                android:padding="8dp" />
-        </LinearLayout>
-
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="220dp"
-            android:layout_marginRight="200dp"
-            android:layout_marginTop="20dp"
-            android:text="O total é " />
-
+        <!-- Adicione aqui as seções para as sobremesas -->
     </LinearLayout>
 
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Layout para o texto fixo no rodapé -->
+
+        <!-- Layout para o botão flutuante -->
+        <TextView
+            android:id="@+id/textoRodape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|bottom"
+            android:text="O total do pedido é"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/botaoFlutuante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/second_color"
+            android:fontFamily="monospace"
+            android:text="Finalizar pedido"
+            android:textAllCaps="true" />
+
+    </RelativeLayout>
 
 
 </LinearLayout>
