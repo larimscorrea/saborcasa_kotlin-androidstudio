@@ -12,18 +12,27 @@
     tools:context=".ui.login.LoginActivity"
     android:background="@color/fundo">
 
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="251dp"
+        android:src="@drawable/sabor"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
     <EditText
         android:id="@+id/name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/white"
+        android:layout_marginTop="228dp"
         android:autofillHints="@string/prompt_email"
+        android:backgroundTint="@color/white"
         android:hint="@string/prompt_name"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,14 +40,15 @@
         android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/white"
+        android:layout_marginTop="172dp"
         android:autofillHints="@string/prompt_email"
+        android:backgroundTint="@color/white"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,16 +56,17 @@
         android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/white"
+        android:layout_marginTop="72dp"
         android:autofillHints="@string/prompt_password"
+        android:backgroundTint="@color/white"
         android:hint="@string/prompt_password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
@@ -63,19 +74,19 @@
         android:id="@+id/confirm_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/white"
+        android:layout_marginTop="128dp"
         android:autofillHints="@string/prompt_confirm_password"
+        android:backgroundTint="@color/white"
         android:hint="@string/prompt_confirm_password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
-
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -86,13 +97,6 @@
         android:gravity="center_horizontal"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/confirm_password">
-
-        <RadioButton
-            android:id="@+id/radioMale"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Masculino" />
 
     </RadioGroup>
 
@@ -110,10 +114,10 @@
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.835" />
 
     <ProgressBar
         android:id="@+id/loading"
@@ -135,8 +139,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Feminino"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="413dp" />
 
     <RadioButton
         android:id="@+id/radioOther"
@@ -144,16 +148,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Outro"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="293dp" />
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="413dp" />
 
     <CheckBox
         android:id="@+id/checkBoxTerms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eu aceito os termos e condições"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <RadioButton
+        android:id="@+id/radioMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Masculino"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="412dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
