@@ -49,6 +49,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 20"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -76,6 +85,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 30"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
 
@@ -104,6 +122,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 15"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -131,6 +158,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 15"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicione aqui as seções para os pratos de entrada -->
@@ -180,6 +216,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 20"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -207,6 +252,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 50"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -223,7 +277,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Strogonoffe"
+                android:text="Carne de sol com baião de dois"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -234,6 +288,15 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 55"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -250,7 +313,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lasanha"
+                android:text="Tilápia assada com baião de dois"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="8dp" />
@@ -261,6 +324,16 @@
                 android:text="Tempo de preparo: 15 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 60"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicione aqui as seções para os pratos principais -->
@@ -311,6 +384,15 @@
                 android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -338,6 +420,16 @@
                 android:text="Tempo de preparo: 1 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -365,6 +457,15 @@
                 android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicionando a seção para o prato "Salada" -->
@@ -392,6 +493,16 @@
                 android:text="Tempo de preparo: 5 minutos"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$: 10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="18dp" />
         </LinearLayout>
 
         <!-- Adicione aqui as seções para as bebidas -->

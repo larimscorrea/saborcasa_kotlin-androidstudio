@@ -25,8 +25,8 @@
         android:fontFamily="monospace"
         android:text="Entrar"
         android:textAllCaps="true"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="602dp" />
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="594dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,8 +35,8 @@
         android:fontFamily="monospace"
         android:text="Registrar"
         android:textAllCaps="true"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="660dp" />
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="651dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
