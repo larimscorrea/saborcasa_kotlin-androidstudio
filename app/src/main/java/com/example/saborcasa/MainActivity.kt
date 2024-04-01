@@ -12,35 +12,33 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.saborcasa.ui.theme.SaborCasaTheme
 
+
+import android.content.Intent
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SaborCasaTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+            setContentView(R.layout.activity_main3)
+        }
+
+    }
+}
+
+class RegistroActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main3)
+
+        val buttonRegister = findViewById<Button>(R.id.buttonRegister)
+        buttonRegister.setOnClickListener {
+            val intent = Intent(this, RegistroActivity::class.java)
+            startActivity(intent)
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    SaborCasaTheme {
-        Greeting("Android")
-    }
-}

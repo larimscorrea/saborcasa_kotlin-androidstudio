@@ -73,29 +73,28 @@
 
 
     <ImageView
-        android:layout_width="76dp"
-        android:layout_height="69dp"
+        android:layout_width="69dp"
+        android:layout_height="67dp"
         android:src="@drawable/facebook"
 
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="479dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="632dp" />
 
     <ImageView
-        android:layout_width="74dp"
-        android:layout_height="64dp"
-        android:background="@color/white"
+        android:layout_width="68dp"
+        android:layout_height="49dp"
         android:src="@drawable/google"
 
-        tools:layout_editor_absoluteX="304dp"
-        tools:layout_editor_absoluteY="479dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="568dp" />
 
     <ImageView
-        android:layout_width="76dp"
-        android:layout_height="69dp"
+        android:layout_width="66dp"
+        android:layout_height="64dp"
         android:src="@drawable/twitter"
 
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="479dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="488dp" />
 
     <ProgressBar
         android:id="@+id/loading"

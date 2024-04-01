@@ -19,6 +19,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        android:id="@+id/buttonSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/second_color"
@@ -29,6 +30,7 @@
         tools:layout_editor_absoluteY="594dp" />
 
     <Button
+        android:id="@+id/buttonRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/second_color"
